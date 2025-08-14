@@ -1,0 +1,10 @@
+@media (max-width: 600px) {
+    
+    .container{
+        margin: 0% !important;
+        padding: 1rem !important;
+    }
+    .row{
+        margin-top: 250px;
+    }
+}

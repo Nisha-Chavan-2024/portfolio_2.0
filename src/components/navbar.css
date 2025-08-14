@@ -1,0 +1,62 @@
+
+.nav-tabs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #000000;
+    padding: 1rem;
+    position: relative;
+  }
+
+  .navbar-container{
+    position: sticky;
+    background-color: #000000;
+  top: 0;
+  z-index: 1000;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+  
+    .navbar-container {
+      position: sticky !important; /* Keep it sticky on mobile too */
+      top: 0;
+    }
+    a{
+        text-align: center !important;
+        margin-left: 70px;
+        font-size: 25px;
+    }
+    .tab-container {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background-color: #000000;
+      flex-direction: column;
+      display: none;
+      padding: 0% !important;
+      margin: 0% !important;
+      
+    }
+  
+    .nav-tabs.active {
+      display: flex;
+    }
+  
+    .MuiTabs-root {
+      flex-direction: column;
+      width: 100%;
+      padding: 0% !important;
+      margin: 0% !important;
+    }
+  
+    .MuiTab-root {
+      width: 25%;
+      text-align: left;
+      padding: 2px;
+      font-size: small;
+      font-weight: normal;
+    }
+  }

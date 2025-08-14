@@ -1,0 +1,50 @@
+/* styles.css */
+
+/* Mobile styles (under 600px) */
+@media (max-width: 600px) {
+    /* Card adjustments */
+    .MuiCard-root {
+      width: 95% !important;
+      margin: 0 auto 1.5rem !important;
+      height: 25rem !important; /* Adjusted mobile height */
+      overflow-x: hidden;
+    }
+  
+    /* Typography scaling */
+    .MuiTypography-h2 {
+      font-size: 1.5rem !important;
+      margin-bottom: 1rem !important;
+      padding: 2rem !important;
+    }
+  
+    /* Icon sizing */
+    .MuiTypography-root svg {
+      font-size: 4rem !important; /* Smaller icons on mobile */
+    }
+  
+    /* Grid container reset */
+    .MuiBox-root {
+      grid-template-columns: 1fr !important;
+      gap: 1rem !important;
+      padding: 2rem !important;
+    }
+  
+    /* CardContent padding */
+    .MuiCardContent-root {
+      padding: 2rem !important;
+    }
+  }
+  
+  /* Tablet styles (600px-900px) */
+  @media (min-width: 601px) and (max-width: 900px) {
+    .MuiBox-root {
+      grid-template-columns: repeat(2, 1fr) !important;
+    }
+  }
+  
+  /* Desktop styles (900px+) */
+  @media (min-width: 901px) {
+    .MuiBox-root {
+      grid-template-columns: repeat(3, 1fr) !important;
+    }
+  }
