@@ -1,6 +1,6 @@
 # Portfolio Website
 
-A personal portfolio website built with **React.js**, showcasing my skills, projects, and resume. This single-page application (SPA) is fully responsive, visually appealing, and deployed on **Vercel** for live access.
+A personal portfolio website built with **React.js**, showcasing my skills, projects, and resume.Deployed on **Vercel** for live access.
 
 ## Live Demo
 
