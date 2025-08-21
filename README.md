@@ -4,7 +4,7 @@ A personal portfolio website built with **React.js**, showcasing my skills, proj
 
 ## Live Demo
 
-[View Live Portfolio](https://YOUR-VERCEL-URL.vercel.app)
+[View Live Portfolio](https://portfolio-9aouslzwg-nisha-chavan-2024s-projects.vercel.app)
 
 ## Features
 
@@ -32,3 +32,11 @@ git clone https://github.com/YOUR_USERNAME/portfolio_2.0.git
 2. Navigate into the project directory:
 
 cd my-app
+
+3. Install dependencies:
+
+npm install
+
+4. Run locally:
+
+npm start
