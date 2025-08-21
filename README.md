@@ -27,7 +27,7 @@ A personal portfolio website built with **React.js**, showcasing my skills, proj
 1. Clone the repository:
 
 ```bash
-git clone [https://github.com/YOUR_USERNAME/portfolio_2.0.git](https://github.com/Nisha-Chavan-2024/portfolio_2.0.git)
+git clone https://github.com/Nisha-Chavan-2024/portfolio_2.0.git
 
 2. Navigate into the project directory:
 
